@@ -1,3 +1,5 @@
+## Introduction
+Hi, I am Swapnil Chavan, working as a Data Engineer in a leading financial services company in the USA. These are the list of the projects I have implemented during my journey towards a data scientist.
 ## 1. Predictive Analytics - Portugal Bank Marketing Campaigns 
 This project involves the analysis of banking data, specifically the analysis of marketing campaign data provided by a Portuguese banking institution. The marketing campaigns were based on phone calls. Often, more than one contact to the same client was required, in order to access if the product (bank term deposit) would be (or not) subscribed. In particular, the Portuguese Bank Marketing dataset contains 45211 rows and 16 columns which are a combination of numerical and categorical variables as well as one target variable, Subscription, which represents whether a client will subscribe to a term deposit (yes/no).
 ### Data Selection
@@ -31,3 +33,12 @@ The choice of these models is based on their suitability for different aspects o
 4. In this case, the model that I have built has to be more accurate in terms of predicting negatives. True negatives must be more accurate.
 5. As my intention is to find "How good the model is predicting true negatives" , I need to choose the model with high specificity. If we compare both the models, It is evident that logistic regression is the best fit in this case
 6. Apart from that I also found that logistic regression is better in terms of precision, recall and F1 Score metrics.
+## 2. K-Means Explained
+K-means clustering is a popular unsupervised machine learning algorithm used to group similar data points into clusters, aiming to minimize the distance between data points and their respective cluster centers (centroids). 
+Here's a breakdown of the algorithm:
+
+How it Works:
+1. Initialization: Randomly select k data points as initial centroids (cluster centers). 
+2. Assignment: Assign each data point to the nearest centroid, forming clusters. 
+3. Update: Recalculate the centroids by finding the mean of all data points within each cluster. 
+4. Iteration: Repeat steps 2 and 3 until the centroids no longer change significantly or a maximum number of iterations is reached.
