@@ -43,3 +43,4 @@ How it Works:
 2. Assignment: Assign each data point to the nearest centroid, forming clusters. 
 3. Update: Recalculate the centroids by finding the mean of all data points within each cluster. 
 4. Iteration: Repeat steps 2 and 3 until the centroids no longer change significantly or a maximum number of iterations is reached.
+[Visit the Code Here](https://github.com/swapnil0109/swapnil0109.github.io/blob/main/KMeans-Explained.ipynb)
