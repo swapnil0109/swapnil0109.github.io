@@ -1,4 +1,4 @@
-## Predictive Analytics - Portugal Bank Marketing Campaigns 
+## 1. Predictive Analytics - Portugal Bank Marketing Campaigns 
 This project involves the analysis of banking data, specifically the analysis of marketing campaign data provided by a Portuguese banking institution. The marketing campaigns were based on phone calls. Often, more than one contact to the same client was required, in order to access if the product (bank term deposit) would be (or not) subscribed. In particular, the Portuguese Bank Marketing dataset contains 45211 rows and 16 columns which are a combination of numerical and categorical variables as well as one target variable, Subscription, which represents whether a client will subscribe to a term deposit (yes/no).
 ### Data Selection
 First and foremost thing for any data science project is the data and my project is also not an exception to it. I have used the below criterias for the selection of the data for my term project.
